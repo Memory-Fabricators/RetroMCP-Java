@@ -16,3 +16,10 @@ test/*
 .vscode
 .settings
 bin
+
+# MCP
+/jars
+/libraries
+/conf
+/minecraft
+/minecraft_server

@@ -96,6 +96,10 @@ allprojects {
 			}
 		}
 	}
+	
+	tasks.withType(AbstractTestTask).configureEach {
+    	failOnNoDiscoveredTests = false
+	}
 }
 
 subprojects {
